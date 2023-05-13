@@ -17,7 +17,7 @@
 
 3. Enable and config **CGI** [OPTIONAL] <br>
 	3.1. ```# a2enmod cgi``` <br>
-	3.2. ```# nano /etc/apache2/sites-available/000-default.conf``` or  ```# nano/etc/apache2/sites-available/default.conf``` <br>
+	3.2. ```# nano /etc/apache2/sites-available/000-default.conf``` or ```# nano/etc/apache2/sites-available/default.conf``` <br>
 	> Put the following code inside ```<VirtualHost>{here}</VirtualHost>``` <br>
 	``` 
 	<Directory /var/www/html>
