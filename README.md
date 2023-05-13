@@ -28,10 +28,10 @@
 	```
 4. MySQL setup and usage<br> 
 	4.1. Login as root ```# mysql -u root -p```<br>
-	4.2 Create a new user ``` CREATE USER 'username'@'localhost' IDENTIFIED BY 'password'; ```<br>
-	4.3 Re-log as that user with ```$/# mysql -u username -ppassword```<br>
-	4.4 Create a DataBase and a Table ```CREATE DATABASE mydb;``` move into it ```USE mydb;``` create table ```CREATE TABLE mytable(name VARCHAR(100));```<br>
-	4.5 Test it! ```INSERT INTO mytable(name) VALUES ('0utl4nder');``` then ``` SELECT * FROM mytable;```  Inspect it ```DESCRIBE mytable;```<br>
+	4.2. Create a new user ``` CREATE USER 'username'@'localhost' IDENTIFIED BY 'password'; ```<br>
+	4.3. Re-log as that user with ```$/# mysql -u username -ppassword```<br>
+	4.4. Create a DataBase and a Table ```CREATE DATABASE mydb;``` move into it ```USE mydb;``` create table ```CREATE TABLE mytable(name VARCHAR(100));```<br>
+	4.5. Test it! ```INSERT INTO mytable(name) VALUES ('0utl4nder');``` then ``` SELECT * FROM mytable;```  Inspect it ```DESCRIBE mytable;```<br>
 5. Start code!<br>
 	5.1. ```# touch /var/www/html/index.sh && chmod +x /var/www/html/index.sh```<br>
 	> If you will print html remember to add the content type or you will face an Internal Server Error (500), for example.<br>
